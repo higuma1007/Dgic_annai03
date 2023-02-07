@@ -18,6 +18,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{453062BA-7C0A-
 		js\loadYoutube.js = js\loadYoutube.js
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{4E91ABD0-9B34-4845-877E-BEF35C8607DE}"
+	ProjectSection(SolutionItems) = preProject
+		img\dgic_bear.jpg = img\dgic_bear.jpg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

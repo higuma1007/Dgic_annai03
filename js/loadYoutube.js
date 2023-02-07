@@ -22,7 +22,7 @@ function onYouTubeIframeAPIReady() {
             controls: 0,// プレーヤー コントロールを表示しない
             modestbranding: 1, // YouTubeロゴの非表示
             iv_load_policy: 3, // アノテーションの非表示
-            start: 5,//50秒後から動画がスタート
+            start: 0,//0秒後から動画がスタート
         },
         events: {//　イベント
             'onReady': onPlayerReady,

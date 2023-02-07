@@ -15,24 +15,6 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 
-.youtube-area bun {
-    z-index: 2; /*下から2番目に表示*/
-    color: blue;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 1000px;
-    height: auto;
-    font-family: 'Kosugi Maru', sans-serif;
-    font-size: 48px;
-    margin: 0em;
-    font-size: 64px;
-    font-weight: normal;
-    text-align: center;
-    line-height: 2;
-}
-
 footer {
     color: black;
     text-align: center;
@@ -46,8 +28,13 @@ footer {
     text-align: center;
     color: #fff;
     /*ローディング画面時＆動画が表示されないときに表示する背景画像のレスポンシブ化*/
-    background: url("../img/movie.jpg") no-repeat;
+    background: url("../img/dgic_bear.jpg") no-repeat;
     background-size: cover;
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* ローディングアイコン設定 */
@@ -116,7 +103,6 @@ footer {
     height: 100%;
 }
 
-
 /*youtube 上のロゴ */
 p {
     position: absolute;
@@ -126,7 +112,7 @@ p {
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     /*色指定*/
-    color: #fff;
+    color: yellow;
     text-shadow: 0 0 15px #666;
     width: 1000px;
     height: auto;
